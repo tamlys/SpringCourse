@@ -2,7 +2,6 @@ package ru.sachenkov.springdemo;
 
 public class BaseballCoach implements Coach {
     private FortuneService fortuneService;
-
     public BaseballCoach(FortuneService theFortuneService) {
         fortuneService = theFortuneService;
     }

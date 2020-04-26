@@ -11,4 +11,5 @@ public class SetterDemoApp {
         System.out.println(theCoach.getDailyFortune());
         context.close();
     }
+
 }

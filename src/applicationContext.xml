@@ -19,5 +19,6 @@
           class="ru.sachenkov.springdemo.CricketCoach">
           <property name ="fortuneService" ref="myFortuneService"/>
     </bean>
+
 </beans>
 
