@@ -21,4 +21,5 @@ public class CricketCoach implements Coach {
     public String getDailyFortune() {
         return fortuneService.getFortune();
     }
+
 }

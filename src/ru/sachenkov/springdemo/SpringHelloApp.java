@@ -11,5 +11,4 @@ public class SpringHelloApp {
         System.out.println(theCoach.getDailyFortune());
         context.close();
     }
-
 }
