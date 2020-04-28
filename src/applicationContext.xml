@@ -13,15 +13,23 @@
           class="ru.sachenkov.springdemo.HappyFortuneService"/>
 
     <bean id="myCoach"
-        class="ru.sachenkov.springdemo.TrackCoach">
+          class="ru.sachenkov.springdemo.TrackCoach">
         <constructor-arg ref="myFortuneService"/>
     </bean>
 
     <bean id="myCricketCoach"
           class="ru.sachenkov.springdemo.CricketCoach">
-          <property name ="fortuneService" ref="myFortuneService"/>
+        <property name ="fortuneService" ref="myFortuneService"/>
         <property name="emailAddress" value="${foo.email}"/>
         <property name="team" value="${foo.team}"/>
     </bean>
-</beans>
 
+    <bean id="myFortuneServiceRandom"
+        class="ru.sachenkov.springdemo.RandomFortuneService">
+    </bean>
+
+    <bean id="myPingPongCoach"
+        class="ru.sachenkov.springdemo.PingPongCoach">
+        <constructor-arg ref="myFortuneServiceRandom" />
+    </bean>
+</beans>
