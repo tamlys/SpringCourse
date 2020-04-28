@@ -18,6 +18,8 @@
     <bean id="myCricketCoach"
           class="ru.sachenkov.springdemo.CricketCoach">
           <property name ="fortuneService" ref="myFortuneService"/>
+        <property name="emailAddress" value="oqiwhite1996@gmail.com"/>
+        <property name="team" value="Sachyonkov Maxim"/>
     </bean>
 </beans>
 
