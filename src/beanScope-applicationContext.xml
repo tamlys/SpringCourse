@@ -11,7 +11,8 @@
           class="ru.sachenkov.springdemo.HappyFortuneService"/>
 
     <bean id="myCoach"
-          class="ru.sachenkov.springdemo.TrackCoach">
+          class="ru.sachenkov.springdemo.TrackCoach"
+          scope="prototype">
         <constructor-arg ref="myFortuneService"/>
     </bean>
 </beans>
