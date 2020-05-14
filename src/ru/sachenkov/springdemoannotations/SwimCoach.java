@@ -14,6 +14,7 @@ public class SwimCoach implements Coach {
     private String team;
 
     @Autowired
+    @Qualifier("randomFortuneService")
     private FortuneService fortuneService;
 
     public SwimCoach() {}

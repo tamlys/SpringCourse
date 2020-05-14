@@ -19,7 +19,6 @@ public class TennisCoach implements Coach {
         this.fortuneService = fortuneService;
     }
 
-
     @Override
     public String getDailyWorkout() {
         return "Practice your backhand volley";
