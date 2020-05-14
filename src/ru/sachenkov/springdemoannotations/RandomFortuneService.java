@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
-@Component
+
 public class RandomFortuneService implements FortuneService {
     private String[] data = {
         "Beware of the wolf in sheep's clothing",
