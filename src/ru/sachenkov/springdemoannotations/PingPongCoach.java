@@ -1,9 +1,11 @@
 package ru.sachenkov.springdemoannotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("prototype")
 public class PingPongCoach implements Coach {
     @Autowired
     private FortuneService fortuneService;
