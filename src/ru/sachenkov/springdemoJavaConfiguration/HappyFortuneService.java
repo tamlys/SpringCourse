@@ -1,8 +1,5 @@
 package ru.sachenkov.springdemoJavaConfiguration;
-import org.springframework.stereotype.Component;
-import ru.sachenkov.springdemoAnnotations.FortuneService;
 
-@Component
 public class HappyFortuneService implements FortuneService {
 
     @Override
