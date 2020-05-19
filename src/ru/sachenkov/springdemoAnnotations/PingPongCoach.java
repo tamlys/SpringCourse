@@ -1,4 +1,4 @@
-package ru.sachenkov.springdemoannotations;
+package ru.sachenkov.springdemoAnnotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;

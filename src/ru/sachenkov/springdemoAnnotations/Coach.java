@@ -1,4 +1,4 @@
-package ru.sachenkov.springdemoannotations;
+package ru.sachenkov.springdemoAnnotations;
 
 public interface Coach {
     public String getDailyWorkout();

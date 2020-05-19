@@ -1,4 +1,4 @@
-package ru.sachenkov.springdemoannotations;
+package ru.sachenkov.springdemoAnnotations;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

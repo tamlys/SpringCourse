@@ -1,6 +1,4 @@
-package ru.sachenkov.springdemoannotations;
-
-import org.springframework.stereotype.Component;
+package ru.sachenkov.springdemoAnnotations;
 
 import java.util.Random;
 
